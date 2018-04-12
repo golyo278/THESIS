@@ -1,0 +1,286 @@
+body {
+    font-size: 250%;
+    font-family: "Stanley-Poster", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+.back{
+
+}
+
+
+.front{
+ 
+}
+
+.visible{
+  display: inline-block;
+}
+
+.invisible{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.refresh1:hover a:hover {color: rgb(215, 129, 72);}
+.refresh2:hover a:hover {color: rgb(139,69,19);}
+.refresh3:hover a:hover {color: pink}
+
+.refresh1{
+  text-decoration: none;
+  font-size: 2vw;
+  width:100%;
+  text-align: center;
+  position: fixed;
+  vertical-align: bottom;
+  bottom: 2%;
+  color: black;
+}
+
+.refresh2{
+  text-decoration: none;
+  font-size: 2vw;
+  width:100%;
+  text-align: center;
+  position: fixed;
+  vertical-align: bottom;
+  bottom: 2%;
+  color: black;
+}
+.refresh3{
+  text-decoration: none;
+  font-size: 2vw;
+  width:100%;
+  text-align: center;
+  position: fixed;
+  vertical-align: bottom;
+  bottom: 2%;
+  color: black;
+}
+
+a:hover
+{
+   text-decoration: none;
+}
+/* Dropdown Button */
+.dropbtn1 {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: "Stanley-Poster", sans-serif;
+    font-size: 2vw;
+    margin-top: 2%;
+    width: 18%;
+    margin-left:41%;
+    position: fixed;
+}
+.dropbtn2 {
+
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1vw;
+    margin-top: 2%;
+   
+    
+    position: fixed;
+}
+.dropbtn3 {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: "Stanley-Poster", sans-serif;
+    font-size: 2vw;
+    margin-top: 2%;
+    width: 18%;
+    margin-left:41%;
+    position: fixed;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+    position: fixed;
+    display: inline-block;
+    width:100%;
+}
+.dropdown2 {
+    position: fixed;
+    display: inline-block;
+    width:100%;
+}
+.dropdown3 {
+    position: fixed;
+    display: inline-block;
+    width:100%;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: grey;
+    z-index: 1;
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-left:44%;
+}
+.dropdown-content2{
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: grey;
+    z-index: 1;
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-left:44%;
+}
+.dropdown-content3{
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: grey;
+    z-index: 1;
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-left:44%;
+}
+/* Links inside the dropdown */
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {color: rgb(215, 129, 72);}
+.dropdown-content2 a:hover {color:rgb(139,69,19);}
+.dropdown-content3 a:hover {color: brown}
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1  {
+    background-color: white;
+    color: black;
+}
+.dropdown2:hover .dropbtn2  {
+    background-color: white;
+    color: black;
+}
+.dropdown3:hover .dropbtn3  {
+    background-color: white;
+    color: black;
+}
+.page{
+  border-style:hidden;
+  border-color: black;
+  border-width: 10px; 
+}
+@font-face {
+    font-family: "Stanley Regular Italic";
+    src: url("Stanley_Regular_Italic.otf"); 
+    font-weight: italic;
+}
+@font-face {
+    font-family: "Stanley Poster";
+    src: url("StanleyPoster.otf"); 
+}
+h1{
+  margin: auto 0;
+  position: center;
+  text-align: center;
+  font-size: 10vw;
+}
+.cursor{
+  background-color: black;
+  margin: auto 0;
+  animation-name: animationName1;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+  @keyframes animationName1{
+    0%{
+      width: .5%;
+      height: 18%;
+      background-color: black;
+      opacity: 1;
+    }
+    100%{
+    width: .5%;
+      height: 18%;
+      opacity: 0;
+    }
+  }
+
+p{
+      font-weight: italic;
+      font-size: 24pt;
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: #58D636;
+      text-decoration:none;
+}
+.text {
+
+    
+    
+}
+
+div {
+    width:100px;
+    height: auto;
+}
+/*
+.point {
+   border-radius: 50%;
+   background: red;
+   position: absolute;
+	background-image: url(http://espacepourlavie.ca/sites/espacepourlavie.ca/files/styles/gal-photo-large/public/istock_000015226257_620px_0.jpg?itok=PpAZwCt7);
+	height: 100px;
+	width: 100px;
+}
+*/
+
+img{
+  height: 170px;
+  width: auto;
+}
